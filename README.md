@@ -16,7 +16,7 @@ Web application allowing you to borrow a book
 - quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
 - l'utilisateur a la possiblité de liker ou mettre des films dans une liste de souhaits
 
-## plutard
+## pour plus tard
 - l'utilisateur doit fournir l'adresse à laquelle on envoit le film version disque, ou le mail auquel envoyer la version en ligne
 - pour un film en ligne, le lien du film est disponible pendant une durée déterminée
 
