@@ -40,3 +40,13 @@ Web application allowing you to borrow a book
 - **Évolutivité des serveurs:** Si l'application utilise des serveurs, assurez-vous qu'ils sont dimensionnés pour gérer la charge prévue, avec des mécanismes d'évolutivité en place.
 - **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
 - **Gestion des APIs:** fournir des api claires et compréhensibles, bien documentées, permettant une intégration future avec un api management.
+
+# Workflow
+Description de l'ensemble des principaux workflow de l'application.
+
+## Inscription d'un utilisateur
+- Sur l'interface principale, l'utilisateur clique sur le bouton d'inscription
+- Il remplit un formulaire avec son nom, prénom, e-mail, mot de passe. L'email est unique pour un utilisateur
+- Après validation, l'utilisateur recoit un mail avec un lien de confirmation
+- Une fois qu'il a cliqué sur le lien, il arrive sur une page qui lui demande de choisir la langue et les genres de film préférés
+- Enfin il arrive sur la page principale avec des suggestions de films lui correspondant
