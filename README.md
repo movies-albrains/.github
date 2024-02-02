@@ -90,3 +90,9 @@ Description de l'ensemble des principaux workflow de l'application.
 ## Campagne de communication
 
 ## Suggérer un film
+
+## Paramétrer son compte
+
+## Supprimer son compte
+
+## Inviter une autre personne sur le site
