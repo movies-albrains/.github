@@ -15,6 +15,8 @@ Web application allowing you to borrow a book
 - un utilisateur ne peut emprunter qu'un seul exemplaire du même film
 - quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
 - l'utilisateur a la possiblité de liker ou mettre des films dans une liste de souhaits
+- l'admnistrateur peut ajouter de nouveau film
+- certaines données de l'utilisateur sont conservées pendant une durée déterminée (rgpd)
 
 ## pour plus tard
 - l'utilisateur doit fournir l'adresse à laquelle on envoit le film version disque, ou le mail auquel envoyer la version en ligne
@@ -24,4 +26,6 @@ Web application allowing you to borrow a book
 - Les films vont êtres initialisées en utilisant le script disponible sur la page [Movielens](https://grouplens.org/datasets/movielens/)
 - Les utilisateurs font régulièrement des recherches, ce qui demande du cpu
 - On a beaucoup de données de films, ratings, commentaires...
-- 
+- près de 1000 utilisateurs connectés simultanément
+- tolérence de perte de messages ??
+- configurer la retention des données (avec aws config ?)
