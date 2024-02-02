@@ -29,22 +29,14 @@ Web application allowing you to borrow a book
 - près de 1000 utilisateurs connectés simultanément
 - tolérence de perte de messages ??
 - configurer la retention des données (avec aws config ?)
-1. **Performance:** Assurez-vous que l'application vidéothèque offre une navigation fluide et une réponse rapide, même avec un grand nombre de vidéos répertoriées.
-
-2. **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
-
-3. **Compatibilité:** Garantissez la compatibilité de l'application avec divers dispositifs (smartphones, tablettes, ordinateurs) et systèmes d'exploitation (iOS, Android, Windows, etc.).
-
-4. **Accessibilité:** Assurez-vous que l'application est accessible à tous les utilisateurs, y compris ceux ayant des besoins spécifiques tels que des limitations visuelles ou auditives.
-
-5. **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
-
-6. **Interactivité utilisateur:** Fournissez une interface utilisateur conviviale et intuitive, favorisant une expérience utilisateur positive et encourageant l'exploration du contenu.
-
-7. **Efficacité du stockage:** Optimisez l'utilisation de l'espace de stockage pour minimiser l'empreinte de l'application tout en conservant une performance optimale.
-
-8. **Gestion des erreurs:** Mettez en place des mécanismes efficaces pour gérer les erreurs, fournir des messages d'erreur clairs et guider les utilisateurs en cas de problème.
-
-9. **Évolutivité des serveurs:** Si l'application utilise des serveurs, assurez-vous qu'ils sont dimensionnés pour gérer la charge prévue, avec des mécanismes d'évolutivité en place.
-
-10. **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
+- **Performance:** l'application vidéothèque offre une navigation fluide et une réponse rapide, même avec un grand nombre de vidéos répertoriées
+- **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
+- **Compatibilité:** Garantissez la compatibilité de l'application avec divers dispositifs (smartphones, tablettes, ordinateurs) et systèmes d'exploitation (iOS, Android, Windows, etc.).
+- **Accessibilité:** Assurez-vous que l'application est accessible à tous les utilisateurs, y compris ceux ayant des besoins spécifiques tels que des limitations visuelles ou auditives.
+- **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
+- **Interactivité utilisateur:** Fournissez une interface utilisateur conviviale et intuitive, favorisant une expérience utilisateur positive et encourageant l'exploration du contenu.
+- **Efficacité du stockage:** Optimisez l'utilisation de l'espace de stockage pour minimiser l'empreinte de l'application tout en conservant une performance optimale.
+- **Gestion des erreurs:** Mettez en place des mécanismes efficaces pour gérer les erreurs, fournir des messages d'erreur clairs et guider les utilisateurs en cas de problème.
+- **Évolutivité des serveurs:** Si l'application utilise des serveurs, assurez-vous qu'ils sont dimensionnés pour gérer la charge prévue, avec des mécanismes d'évolutivité en place.
+- **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
+- **Gestion des APIs:** fournir des api claires et compréhensibles, bien documentées, permettant une intégration future avec un api management.
