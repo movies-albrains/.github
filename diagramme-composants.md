@@ -6,3 +6,4 @@
 - notification
 - profil
 - emprunt
+- analyse de données
