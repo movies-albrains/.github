@@ -98,3 +98,5 @@ Description de l'ensemble des principaux workflow de l'application.
 ## Inviter une autre personne sur le site
 
 ## Signaler un film
+
+## Liste de favoris
