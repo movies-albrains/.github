@@ -41,7 +41,7 @@ Web application allowing you to borrow a book
 - **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
 - **Gestion des APIs:** fournir des api claires et compréhensibles, bien documentées, permettant une intégration future avec un api management.
 
-# Workflow
+# Workflows
 Description de l'ensemble des principaux workflow de l'application.
 
 ## Inscription d'un utilisateur
