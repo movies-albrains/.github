@@ -10,4 +10,4 @@ Web application allowing you to borrow a book
 - Anaylyses de données: analyse du comportement des utilisateurs, la popularité des films
 
 # Spécifications non fonctionnelles
-- Les films vont êtres initialisées en utilisant le script disponible sur la page [Movielens] (https://grouplens.org/datasets/movielens/)
+- Les films vont êtres initialisées en utilisant le script disponible sur la page [Movielens](https://grouplens.org/datasets/movielens/)
