@@ -60,3 +60,17 @@ Description de l'ensemble des principaux workflow de l'application.
 
 ## Écran principal
 - l'écran principal affiche la liste des films recommandés pour l'utilisateur s'il est  connecté, ou les films du moment si on n'a pas d'utilisateur connecté
+
+## Emprunt de film
+- Quand un utilisateur veut emprunter un film, il fait une recherche dans le catalogue  et sélectionne le film
+- Sur la page du film, il peut visualiser la bande annonce
+- Si le film est disponible à l'emprunt (disponible dans l'inventaire, pas en cours de prêt par le même utilisateur), il valide l'emprunt et le film est mis dans le catalogue pour une certaine durée
+- L'utilisateur valide le panier, saisit la date de livraison, effectue le paiement
+- L'utilisateur recoit un mail de validation de l'emprunt
+
+## Retour du film
+- L'utilisateur est régulièrement notifié à l'approche de la date limite de l'emprunt 
+- Sur la page des emprunts en cours, l'utilisateur peut cliquer pour retourner le film
+- Le retour est validé
+- si il y a des pénalités de retour, l'utilisateur est notifié
+- L'utilisateur est invité à noter et commenter le film
