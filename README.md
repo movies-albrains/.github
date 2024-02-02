@@ -47,6 +47,16 @@ Description de l'ensemble des principaux workflow de l'application.
 ## Inscription d'un utilisateur
 - Sur l'interface principale, l'utilisateur clique sur le bouton d'inscription
 - Il remplit un formulaire avec son nom, prénom, e-mail, mot de passe. L'email est unique pour un utilisateur
+- L'utilisateur a aussi la possibilité de se connecter avec Gmail et Facebook
 - Après validation, l'utilisateur recoit un mail avec un lien de confirmation
 - Une fois qu'il a cliqué sur le lien, il arrive sur une page qui lui demande de choisir la langue et les genres de film préférés
 - Enfin il arrive sur la page principale avec des suggestions de films lui correspondant
+
+## Connexion de l'utilisateur
+- Sur l'écran principal, l'utilisateur clique sur connexion
+- il saisit son login et mot de passe, puis valide
+- il peut aussi se connecter avec Gmail ou Facebook
+- une fois validé, il est renvoyé vers l'écran d'accueil
+
+## Écran principal
+- l'écran principal affiche la liste des films recommandés pour l'utilisateur s'il est  connecté, ou les films du moment si on n'a pas d'utilisateur connecté
