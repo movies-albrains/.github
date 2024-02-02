@@ -7,3 +7,5 @@
 - profil
 - emprunt
 - analyse de données
+- conformité
+- interface utilisateur
