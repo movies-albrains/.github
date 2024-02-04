@@ -7,6 +7,7 @@ Web application allowing you to borrow a book
 - rechercher un film dans le catalogue
 - possibilité de noter un film et de faire des commentaires
 - emprunter et retourner un film
+- pré-commande de film qui arrive bientôt sur la plateforme, ou qui va bientôt être retourné
 - Gestion des utilisateurs: l'emprunteur, l'admin
 - Anaylyses de données: analyse du comportement des utilisateurs, la popularité des films
 - l'emprunt d'un livre est payant, et cela dépend de la durée de l'emprunt
