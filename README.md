@@ -3,7 +3,7 @@ Web application allowing you to borrow a book
 
 # Spécifications fonctionnelles
 - Présentation d'un catalogue de film, en fonction des recommandations relatives aux meilleurs notes et aux genres préférés
-- Pour se différencier de la concurrence, L'administrateur est informé des tendances du moment. Et les utilisateurs peuvent Suggérer des films, et d'autres utilisateurs peuvent voter pour ces suggestions
+- Pour se différencier de la concurrence, L'administrateur est informé des tendances du moment (analyse de données,  analyse des réseaux sociaux...). Les utilisateurs peuvent suggérer des films, et d'autres utilisateurs peuvent voter pour ces suggestions.
 - rechercher un film dans le catalogue
 - possibilité de noter un film et de faire des commentaires
 - emprunter et retourner un film
