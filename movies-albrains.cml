@@ -1,0 +1,20 @@
+
+ContextMap MovieLibrary {
+    contains CatalogContext
+    contains InventoryContext
+
+    CatalogContext [D,ACL]<-[U,OHS,PL] InventoryContext
+}
+
+BoundedContext CatalogContext implements Catalog
+
+BoundedContext InventoryContext implements Inventory
+
+Domain BorrowingMovies {
+    Subdomain Catalog {
+        type = CORE_DOMAIN
+    }
+    Subdomain Inventory {
+        type = CORE_DOMAIN
+    }
+}
