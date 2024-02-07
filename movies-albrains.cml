@@ -2,13 +2,17 @@
 ContextMap MovieLibrary {
     contains CatalogContext
     contains InventoryContext
+    contains IdentityContext
 
     CatalogContext [D,ACL]<-[U,OHS,PL] InventoryContext
+    CatalogContext [D,CF]<-[U] IdentityContext
 }
 
 BoundedContext CatalogContext implements Catalog
 
 BoundedContext InventoryContext implements Inventory
+
+BoundedContext IdentityContext implements Identity
 
 Domain BorrowingMovies {
     Subdomain Catalog {
@@ -16,5 +20,8 @@ Domain BorrowingMovies {
     }
     Subdomain Inventory {
         type = CORE_DOMAIN
+    }
+    Subdomain Identity {
+        type = GENERIC_SUBDOMAIN
     }
 }
