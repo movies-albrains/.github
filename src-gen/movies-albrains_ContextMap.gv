@@ -1,9 +1,31 @@
 digraph "ContextMapGraph" {
 graph ["imagepath"="/tmp/GraphvizJava"]
-"CatalogContext" ["margin"="0.3","orientation"="167","shape"="egg","fontsize"="16","style"="bold","label"="CatalogContext\n","fontname"="sans-serif"]
-"IdentityContext" ["margin"="0.3","orientation"="18","shape"="egg","fontsize"="16","style"="bold","label"="IdentityContext\n","fontname"="sans-serif"]
-"InventoryContext" ["margin"="0.3","orientation"="98","shape"="egg","fontsize"="16","style"="bold","label"="InventoryContext\n","fontname"="sans-serif"]
+"BillingContext" ["margin"="0.3","orientation"="3","shape"="egg","fontsize"="16","style"="bold","label"="BillingContext\n","fontname"="sans-serif"]
+"CatalogContext" ["margin"="0.3","orientation"="32","shape"="egg","fontsize"="16","style"="bold","label"="CatalogContext\n","fontname"="sans-serif"]
+"RecommandationContext" ["margin"="0.3","orientation"="67","shape"="egg","fontsize"="16","style"="bold","label"="RecommandationContext\n","fontname"="sans-serif"]
+"IdentityContext" ["margin"="0.3","orientation"="262","shape"="egg","fontsize"="16","style"="bold","label"="IdentityContext\n","fontname"="sans-serif"]
+"InventoryContext" ["margin"="0.3","orientation"="300","shape"="egg","fontsize"="16","style"="bold","label"="InventoryContext\n","fontname"="sans-serif"]
+"CatalogContext" -> "RecommandationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
 "IdentityContext" -> "CatalogContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "BillingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "RecommandationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "InventoryContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
 <tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
