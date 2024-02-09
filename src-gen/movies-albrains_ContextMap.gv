@@ -1,39 +1,53 @@
 digraph "ContextMapGraph" {
 graph ["imagepath"="/tmp/GraphvizJava"]
-"AccountingContext" ["margin"="0.3","orientation"="172","shape"="egg","fontsize"="16","style"="bold","label"="AccountingContext\n","fontname"="sans-serif"]
-"BillingContext" ["margin"="0.3","orientation"="131","shape"="egg","fontsize"="16","style"="bold","label"="BillingContext\n","fontname"="sans-serif"]
-"CatalogContext" ["margin"="0.3","orientation"="1","shape"="egg","fontsize"="16","style"="bold","label"="CatalogContext\n","fontname"="sans-serif"]
-"RecommandationContext" ["margin"="0.3","orientation"="68","shape"="egg","fontsize"="16","style"="bold","label"="RecommandationContext\n","fontname"="sans-serif"]
-"IdentityContext" ["margin"="0.3","orientation"="251","shape"="egg","fontsize"="16","style"="bold","label"="IdentityContext\n","fontname"="sans-serif"]
-"ProfileContext" ["margin"="0.3","orientation"="130","shape"="egg","fontsize"="16","style"="bold","label"="ProfileContext\n","fontname"="sans-serif"]
-"InventoryContext" ["margin"="0.3","orientation"="267","shape"="egg","fontsize"="16","style"="bold","label"="InventoryContext\n","fontname"="sans-serif"]
-"ReportingContext" ["margin"="0.3","orientation"="22","shape"="egg","fontsize"="16","style"="bold","label"="ReportingContext\n","fontname"="sans-serif"]
+"AccountingContext" ["margin"="0.3","orientation"="128","shape"="egg","fontsize"="16","style"="bold","label"="AccountingContext\n","fontname"="sans-serif"]
+"BillingContext" ["margin"="0.3","orientation"="109","shape"="egg","fontsize"="16","style"="bold","label"="BillingContext\n","fontname"="sans-serif"]
+"BorrowingContext" ["margin"="0.3","orientation"="147","shape"="egg","fontsize"="16","style"="bold","label"="BorrowingContext\n","fontname"="sans-serif"]
+"AdvertisingCampaignContext" ["margin"="0.3","orientation"="47","shape"="egg","fontsize"="16","style"="bold","label"="AdvertisingCampaignContext\n","fontname"="sans-serif"]
+"CatalogContext" ["margin"="0.3","orientation"="66","shape"="egg","fontsize"="16","style"="bold","label"="CatalogContext\n","fontname"="sans-serif"]
+"RecommandationContext" ["margin"="0.3","orientation"="23","shape"="egg","fontsize"="16","style"="bold","label"="RecommandationContext\n","fontname"="sans-serif"]
+"ProfileContext" ["margin"="0.3","orientation"="141","shape"="egg","fontsize"="16","style"="bold","label"="ProfileContext\n","fontname"="sans-serif"]
+"DeliveryContext" ["margin"="0.3","orientation"="312","shape"="egg","fontsize"="16","style"="bold","label"="DeliveryContext\n","fontname"="sans-serif"]
+"IdentityContext" ["margin"="0.3","orientation"="327","shape"="egg","fontsize"="16","style"="bold","label"="IdentityContext\n","fontname"="sans-serif"]
+"ReportingContext" ["margin"="0.3","orientation"="342","shape"="egg","fontsize"="16","style"="bold","label"="ReportingContext\n","fontname"="sans-serif"]
+"InventoryContext" ["margin"="0.3","orientation"="64","shape"="egg","fontsize"="16","style"="bold","label"="InventoryContext\n","fontname"="sans-serif"]
+"NotificationContext" ["margin"="0.3","orientation"="70","shape"="egg","fontsize"="16","style"="bold","label"="NotificationContext\n","fontname"="sans-serif"]
+"AccountingContext" -> "BillingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">U</td><td sides="trbl" bgcolor="white"><font>OHS, PL</font></td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"BillingContext" -> "BorrowingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
 "CatalogContext" -> "RecommandationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
 <tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
 </table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
-"IdentityContext" -> "AccountingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
-<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+"CatalogContext" -> "BorrowingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"CatalogContext" -> "ProfileContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"ProfileContext" -> "RecommandationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">U</td><td sides="trbl" bgcolor="white"><font>OHS, PL</font></td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"DeliveryContext" -> "BorrowingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
 </table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
 "IdentityContext" -> "ProfileContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
-<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
-</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
-<tr><td bgcolor="white">U</td></tr>
-</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
-"IdentityContext" -> "BillingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
-<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
-</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
-<tr><td bgcolor="white">U</td></tr>
-</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
-"IdentityContext" -> "CatalogContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
-<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
-</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
-<tr><td bgcolor="white">U</td></tr>
-</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
-"IdentityContext" -> "InventoryContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
 <tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
@@ -43,7 +57,37 @@ graph ["imagepath"="/tmp/GraphvizJava"]
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
 </table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "AccountingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "BillingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "AdvertisingCampaignContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "InventoryContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "CatalogContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
 "IdentityContext" -> "RecommandationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"IdentityContext" -> "NotificationContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
 <tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>CF</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
 <tr><td bgcolor="white">U</td></tr>
@@ -52,5 +96,10 @@ graph ["imagepath"="/tmp/GraphvizJava"]
 <tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
 </table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="1" border="0">
 <tr><td bgcolor="white" sides="r">U</td><td sides="trbl" bgcolor="white"><font>OHS, PL</font></td></tr>
+</table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
+"InventoryContext" -> "BorrowingContext" ["headlabel"=<<table cellspacing="0" cellborder="1" border="0">
+<tr><td bgcolor="white" sides="r">D</td><td sides="trbl" bgcolor="white"><font>ACL</font></td></tr>
+</table>>,"labeldistance"="0","fontsize"="12","taillabel"=<<table cellspacing="0" cellborder="0" border="0">
+<tr><td bgcolor="white">U</td></tr>
 </table>>,"style"="bold","label"="                                        ","dir"="none","fontname"="sans-serif"]
 }

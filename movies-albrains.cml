@@ -8,9 +8,16 @@ ContextMap MovieLibrary {
     contains AccountingContext
     contains ProfileContext
     contains ReportingContext
+    contains NotificationContext
+    contains BorrowingContext
+    contains DeliveryContext
+    contains AdvertisingCampaignContext
 
     CatalogContext [D,ACL]<-[U,OHS,PL] InventoryContext
     RecommandationContext [D,CF]<-[U] CatalogContext
+    RecommandationContext [D,ACL]<-[U,OHS,PL] ProfileContext
+    ProfileContext [D,ACL]<-[U] CatalogContext
+    BillingContext [D,ACL]<-[U,OHS,PL] AccountingContext
     CatalogContext [D,CF]<-[U] IdentityContext
     InventoryContext [D,CF]<-[U] IdentityContext
     BillingContext [D,CF]<-[U] IdentityContext
@@ -18,7 +25,12 @@ ContextMap MovieLibrary {
     AccountingContext [D,CF]<-[U] IdentityContext
     ProfileContext [D,CF]<-[U] IdentityContext
     ReportingContext [D,CF]<-[U] IdentityContext
-    
+    NotificationContext [D,CF]<-[U] IdentityContext
+    AdvertisingCampaignContext [D,CF]<-[U] IdentityContext
+    BorrowingContext [D,ACL]<-[U] CatalogContext
+    BorrowingContext [D,ACL]<-[U] InventoryContext
+    BorrowingContext [D,ACL]<-[U] BillingContext
+    BorrowingContext [D,ACL]<-[U] DeliveryContext
 }
 
 BoundedContext CatalogContext implements Catalog
@@ -31,11 +43,20 @@ BoundedContext RecommandationContext implements Recommandation
 
 BoundedContext BillingContext implements Billing
 
-BoundedContext AccountingContext implements Accounting
+BoundedContext AccountingContext implements Accounting, Discount
 
-BoundedContext ProfileContext implements Profile
+BoundedContext ProfileContext implements Profile, Wishlist
 
 BoundedContext ReportingContext implements Reporting
+
+BoundedContext NotificationContext implements Notification
+
+BoundedContext BorrowingContext implements Borrow, Return
+
+BoundedContext DeliveryContext implements Delivery
+
+BoundedContext AdvertisingCampaignContext implements AdvertisingCampaign
+
 
 Domain BorrowingMovies {
     Subdomain Catalog {
@@ -47,10 +68,19 @@ Domain BorrowingMovies {
     Subdomain Recommandation {
         type = CORE_DOMAIN
     }
+    Subdomain Borrow {
+        type = CORE_DOMAIN
+    }
+    Subdomain Return {
+        type = CORE_DOMAIN
+    }
     Subdomain Identity {
         type = GENERIC_SUBDOMAIN
     }
     Subdomain Billing {
+        type = GENERIC_SUBDOMAIN
+    }
+    Subdomain Delivery {
         type = GENERIC_SUBDOMAIN
     }
     Subdomain Accounting {
@@ -60,6 +90,18 @@ Domain BorrowingMovies {
         type = SUPPORTING_DOMAIN
     }
     Subdomain Reporting {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Discount {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Notification {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Wishlist {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain AdvertisingCampaign {
         type = SUPPORTING_DOMAIN
     }
 }

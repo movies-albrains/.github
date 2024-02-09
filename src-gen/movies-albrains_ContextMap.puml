@@ -1,0 +1,64 @@
+@startuml
+
+skinparam componentStyle uml2
+
+component [CatalogContext]
+component [InventoryContext]
+component [IdentityContext]
+component [RecommandationContext]
+component [BillingContext]
+component [AccountingContext]
+component [ProfileContext]
+component [ReportingContext]
+
+interface "Upstream-Downstream" as CatalogContext_to_InventoryContext
+[InventoryContext] --> CatalogContext_to_InventoryContext : OPEN_HOST_SERVICE, PUBLISHED_LANGUAGE
+CatalogContext_to_InventoryContext <.. [CatalogContext] : use via ANTICORRUPTION_LAYER
+
+interface "Upstream-Downstream" as RecommandationContext_to_CatalogContext
+[CatalogContext] --> RecommandationContext_to_CatalogContext
+RecommandationContext_to_CatalogContext <.. [RecommandationContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as RecommandationContext_to_ProfileContext
+[ProfileContext] --> RecommandationContext_to_ProfileContext : OPEN_HOST_SERVICE, PUBLISHED_LANGUAGE
+RecommandationContext_to_ProfileContext <.. [RecommandationContext] : use via ANTICORRUPTION_LAYER
+
+interface "Upstream-Downstream" as ProfileContext_to_CatalogContext
+[CatalogContext] --> ProfileContext_to_CatalogContext
+ProfileContext_to_CatalogContext <.. [ProfileContext] : use via ANTICORRUPTION_LAYER
+
+interface "Upstream-Downstream" as BillingContext_to_AccountingContext
+[AccountingContext] --> BillingContext_to_AccountingContext : OPEN_HOST_SERVICE, PUBLISHED_LANGUAGE
+BillingContext_to_AccountingContext <.. [BillingContext] : use via ANTICORRUPTION_LAYER
+
+interface "Upstream-Downstream" as CatalogContext_to_IdentityContext
+[IdentityContext] --> CatalogContext_to_IdentityContext
+CatalogContext_to_IdentityContext <.. [CatalogContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as InventoryContext_to_IdentityContext
+[IdentityContext] --> InventoryContext_to_IdentityContext
+InventoryContext_to_IdentityContext <.. [InventoryContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as BillingContext_to_IdentityContext
+[IdentityContext] --> BillingContext_to_IdentityContext
+BillingContext_to_IdentityContext <.. [BillingContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as RecommandationContext_to_IdentityContext
+[IdentityContext] --> RecommandationContext_to_IdentityContext
+RecommandationContext_to_IdentityContext <.. [RecommandationContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as AccountingContext_to_IdentityContext
+[IdentityContext] --> AccountingContext_to_IdentityContext
+AccountingContext_to_IdentityContext <.. [AccountingContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as ProfileContext_to_IdentityContext
+[IdentityContext] --> ProfileContext_to_IdentityContext
+ProfileContext_to_IdentityContext <.. [ProfileContext] : use as CONFORMIST
+
+interface "Upstream-Downstream" as ReportingContext_to_IdentityContext
+[IdentityContext] --> ReportingContext_to_IdentityContext
+ReportingContext_to_IdentityContext <.. [ReportingContext] : use as CONFORMIST
+
+
+
+@enduml
