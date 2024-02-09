@@ -3,9 +3,22 @@ ContextMap MovieLibrary {
     contains CatalogContext
     contains InventoryContext
     contains IdentityContext
+    contains RecommandationContext
+    contains BillingContext
+    contains AccountingContext
+    contains ProfileContext
+    contains ReportingContext
 
     CatalogContext [D,ACL]<-[U,OHS,PL] InventoryContext
+    RecommandationContext [D,CF]<-[U] CatalogContext
     CatalogContext [D,CF]<-[U] IdentityContext
+    InventoryContext [D,CF]<-[U] IdentityContext
+    BillingContext [D,CF]<-[U] IdentityContext
+    RecommandationContext [D,CF]<-[U] IdentityContext
+    AccountingContext [D,CF]<-[U] IdentityContext
+    ProfileContext [D,CF]<-[U] IdentityContext
+    ReportingContext [D,CF]<-[U] IdentityContext
+    
 }
 
 BoundedContext CatalogContext implements Catalog
@@ -14,6 +27,16 @@ BoundedContext InventoryContext implements Inventory
 
 BoundedContext IdentityContext implements Identity
 
+BoundedContext RecommandationContext implements Recommandation
+
+BoundedContext BillingContext implements Billing
+
+BoundedContext AccountingContext implements Accounting
+
+BoundedContext ProfileContext implements Profile
+
+BoundedContext ReportingContext implements Reporting
+
 Domain BorrowingMovies {
     Subdomain Catalog {
         type = CORE_DOMAIN
@@ -21,7 +44,22 @@ Domain BorrowingMovies {
     Subdomain Inventory {
         type = CORE_DOMAIN
     }
+    Subdomain Recommandation {
+        type = CORE_DOMAIN
+    }
     Subdomain Identity {
         type = GENERIC_SUBDOMAIN
+    }
+    Subdomain Billing {
+        type = GENERIC_SUBDOMAIN
+    }
+    Subdomain Accounting {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Profile {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Reporting {
+        type = SUPPORTING_DOMAIN
     }
 }
