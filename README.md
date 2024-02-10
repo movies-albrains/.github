@@ -46,46 +46,12 @@ Web application allowing you to borrow a book
 # Workflows
 Description de l'ensemble des principaux workflow de l'application.
 
-## Inscription d'un utilisateur
-- Sur l'interface principale, l'utilisateur clique sur le bouton d'inscription
-- Il remplit un formulaire avec son nom, prénom, e-mail, mot de passe. L'email est unique pour un utilisateur
-- L'utilisateur a aussi la possibilité de se connecter avec Gmail et Facebook
-- Après validation, l'utilisateur recoit un mail avec un lien de confirmation
-- Une fois qu'il a cliqué sur le lien, il arrive sur une page qui lui demande de choisir la langue et les genres de film préférés
-- Enfin il arrive sur la page principale avec des suggestions de films lui correspondant
-
-## Connexion de l'utilisateur
-- Sur l'écran principal, l'utilisateur clique sur connexion
-- il saisit son login et mot de passe, puis valide
-- il peut aussi se connecter avec Gmail ou Facebook
-- une fois validé, il est renvoyé vers l'écran d'accueil
-
-## Écran principal
-- l'écran principal affiche la liste des films recommandés pour l'utilisateur s'il est  connecté, ou les films du moment si on n'a pas d'utilisateur connecté
-
-## Emprunt de film
-- Quand un utilisateur veut emprunter un film, il fait une recherche dans le catalogue  et sélectionne le film
-- Sur la page du film, il peut visualiser la bande annonce
-- Si le film est disponible à l'emprunt (disponible dans l'inventaire, pas en cours de prêt par le même utilisateur), il valide l'emprunt et le film est mis dans le catalogue pour une certaine durée
-- L'utilisateur valide le panier, saisit la date de livraison, effectue le paiement
-- L'utilisateur recoit un mail de validation de l'emprunt
-
-## Retour du film
-- L'utilisateur est régulièrement notifié à l'approche de la date limite de l'emprunt 
-- Sur la page des emprunts en cours, l'utilisateur peut cliquer pour retourner le film
-- Le retour est validé
-- si il y a des pénalités de retour, l'utilisateur est notifié
-- L'utilisateur est invité à noter et commenter le film
-
-## Ajouter un film
-- L'administrateur peut ajouter un nouveau à travers une interface qui lui est propre
-
-## Supprimer un film
-- Lorsque L'administrateur supprime un film, on ne peut plus l'emprunter
-- L'administrateur précise à quelle date la suppression va être effectuée
-- L'utilisateur qui accède au film, vera une information qui prévient de la suppression
-- On attends le retour des prêts actuels pour supprimer définitivement le film
-- les informations sur le film sont sauvegardées dans les archives
+## [Inscription d'un utilisateur](./workflows/signup.md)
+## [Connexion de l'utilisateur](./workflows/signin.md)
+## [Emprunt de film](./workflows/borrow.md)
+## [Retour de film](./workflows/return.md)
+## [Ajouter un film](./workflows/add-movie.md)
+## [Supprimer un film](./workflows/remove-movie.md)
 
 ## Code promotionnel
 
