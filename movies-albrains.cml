@@ -4,33 +4,39 @@ ContextMap MovieLibrary {
     contains InventoryContext
     contains IdentityContext
     contains RecommandationContext
-    contains BillingContext
+    contains PaymentContext
     contains AccountingContext
     contains ProfileContext
     contains ReportingContext
     contains NotificationContext
-    contains BorrowingContext
-    contains DeliveryContext
+    contains OrderContext
+    contains ShippingContext
     contains AdvertisingCampaignContext
+    contains ShoppingCartContext
+    contains ReviewContext
 
     CatalogContext [D,ACL]<-[U,OHS,PL] InventoryContext
     RecommandationContext [D,CF]<-[U] CatalogContext
     RecommandationContext [D,ACL]<-[U,OHS,PL] ProfileContext
     ProfileContext [D,ACL]<-[U] CatalogContext
-    BillingContext [D,ACL]<-[U,OHS,PL] AccountingContext
+    PaymentContext [D,ACL]<-[U,OHS,PL] AccountingContext
     CatalogContext [D,CF]<-[U] IdentityContext
     InventoryContext [D,CF]<-[U] IdentityContext
-    BillingContext [D,CF]<-[U] IdentityContext
+    PaymentContext [D,CF]<-[U] IdentityContext
     RecommandationContext [D,CF]<-[U] IdentityContext
     AccountingContext [D,CF]<-[U] IdentityContext
     ProfileContext [D,CF]<-[U] IdentityContext
     ReportingContext [D,CF]<-[U] IdentityContext
     NotificationContext [D,CF]<-[U] IdentityContext
     AdvertisingCampaignContext [D,CF]<-[U] IdentityContext
-    BorrowingContext [D,ACL]<-[U] CatalogContext
-    BorrowingContext [D,ACL]<-[U] InventoryContext
-    BorrowingContext [D,ACL]<-[U] BillingContext
-    BorrowingContext [D,ACL]<-[U] DeliveryContext
+    OrderContext [D,CF]<-[U] IdentityContext
+    ShoppingCartContext [D,CF]<-[U] IdentityContext
+    ReviewContext [D,CF]<-[U] IdentityContext
+    OrderContext [D,ACL]<-[U] CatalogContext
+    OrderContext [D,ACL]<-[U] InventoryContext
+    OrderContext [D,ACL]<-[U] PaymentContext
+    OrderContext [D,ACL]<-[U] ShippingContext
+    ShoppingCartContext [D,CF]<-[U,OHS,PL] InventoryContext
 }
 
 BoundedContext CatalogContext implements Catalog
@@ -41,9 +47,9 @@ BoundedContext IdentityContext implements Identity
 
 BoundedContext RecommandationContext implements Recommandation
 
-BoundedContext BillingContext implements Billing
+BoundedContext PaymentContext implements Payment
 
-BoundedContext AccountingContext implements Accounting, Discount
+BoundedContext AccountingContext implements Accounting, Discount, Billing
 
 BoundedContext ProfileContext implements Profile, Wishlist
 
@@ -51,11 +57,15 @@ BoundedContext ReportingContext implements Reporting
 
 BoundedContext NotificationContext implements Notification
 
-BoundedContext BorrowingContext implements Borrow, Return
+BoundedContext OrderContext implements Borrow, Return
 
-BoundedContext DeliveryContext implements Delivery
+BoundedContext ShippingContext implements Shipping
 
 BoundedContext AdvertisingCampaignContext implements AdvertisingCampaign
+
+BoundedContext ShoppingCartContext implements ShoppingCart
+
+BoundedContext ReviewContext implements Review, Rating
 
 
 Domain BorrowingMovies {
@@ -80,7 +90,10 @@ Domain BorrowingMovies {
     Subdomain Billing {
         type = GENERIC_SUBDOMAIN
     }
-    Subdomain Delivery {
+    Subdomain Shipping {
+        type = GENERIC_SUBDOMAIN
+    }
+    Subdomain Payment {
         type = GENERIC_SUBDOMAIN
     }
     Subdomain Accounting {
@@ -102,6 +115,15 @@ Domain BorrowingMovies {
         type = SUPPORTING_DOMAIN
     }
     Subdomain AdvertisingCampaign {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain ShoppingCart {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Review {
+        type = SUPPORTING_DOMAIN
+    }
+    Subdomain Rating {
         type = SUPPORTING_DOMAIN
     }
 }
