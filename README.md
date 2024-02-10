@@ -48,9 +48,12 @@ Description de l'ensemble des principaux workflow de l'application.
 
 ## [Inscription d'un utilisateur](./workflows/signup.md)
 ## [Connexion de l'utilisateur](./workflows/signin.md)
+## [Ajouter un film](./workflows/add-movie.md)
+## Ajouter un film dans les favories
+## Ajouter un film dans le panier
 ## [Emprunt de film](./workflows/borrow.md)
 ## [Retour de film](./workflows/return.md)
-## [Ajouter un film](./workflows/add-movie.md)
+## Code promotionnel
 ## [Supprimer un film](./workflows/remove-movie.md)
 
 ## Code promotionnel
@@ -59,12 +62,8 @@ Description de l'ensemble des principaux workflow de l'application.
 
 ## Suggérer un film
 
-## Paramétrer son compte
-
 ## Supprimer son compte
 
 ## Inviter une autre personne sur le site
 
 ## Signaler un film
-
-## Liste de favoris
