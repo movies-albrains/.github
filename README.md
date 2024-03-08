@@ -1,12 +1,15 @@
 # .github
 Web application allowing you to borrow a book
 
-# Spécifications fonctionnelles
-- Présentation d'un catalogue de film, en fonction des recommandations relatives aux meilleurs notes et aux genres préférés
-- Pour se différencier de la concurrence, L'administrateur est informé des tendances du moment (analyse de données,  analyse des réseaux sociaux...). Les utilisateurs peuvent suggérer des films, et d'autres utilisateurs peuvent voter pour ces suggestions.
-- rechercher un film dans le catalogue
-- possibilité de noter un film et de faire des commentaires
-- emprunter et retourner un film
+# Functional requirements
+- Display all movies paginated
+- Display catalog base on recommendations (favourites genders, rates ...)
+- Search in the movie catalog
+- Each user can suggest the addition of new movie
+- Each user can rate a film after borrowing, and add some comments
+- borrowing ans return a movie
+
+
 - pré-commande de film qui arrive bientôt sur la plateforme, ou qui va bientôt être retourné
 - Gestion des utilisateurs: l'emprunteur, l'admin
 - Anaylyses de données: analyse du comportement des utilisateurs, la popularité des films
