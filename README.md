@@ -47,9 +47,9 @@ Web application allowing you to borrow a book
 # Workflows
 Description de l'ensemble des principaux workflow de l'application.
 
-## [Inscription d'un utilisateur](./workflows/signup.md)
-## [Connexion de l'utilisateur](./workflows/signin.md)
-## [Ajouter un film](./workflows/add-movie.md)
+## [User registration](./workflows/signup.md)
+## [Authenticate user](./workflows/signin.md)
+## [Add a movie](./workflows/add-movie.md)
 ## Ajouter un film dans les favories
 ## Ajouter un film dans le panier
 ## [Emprunt de film](./workflows/borrow.md)
