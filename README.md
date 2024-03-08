@@ -17,7 +17,7 @@ Web application allowing you to borrow a book
 - possibilité de donner une remise ou code promo à un utilisateur, ou associé à un film
 - au dela de la période d'emprunt, l'emprunteur peut recevoir des pénalités si cela arrive souvent
 - l'utilisateur recoit des notifications par mail lorsque l'emprunt est effectif; il est prévénu quand la date limite d'emprunt arrive
-- un utilisateur ne peut emprunter qu'un seul exemplaire du même film
+- Only one copy of the movie may be borrowed by the same user
 - quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
 - l'utilisateur a la possiblité de liker ou mettre des films dans une liste de souhaits
 - l'admnistrateur peut ajouter de nouveau film
