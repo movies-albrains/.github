@@ -42,9 +42,7 @@ Web application allowing you to borrow a book
 - **Interactivité utilisateur:** Fournissez une interface utilisateur conviviale et intuitive, favorisant une expérience utilisateur positive et encourageant l'exploration du contenu.
 - **Efficacité du stockage:** Optimisez l'utilisation de l'espace de stockage pour minimiser l'empreinte de l'application tout en conservant une performance optimale.
 - **Gestion des erreurs:** Mettez en place des mécanismes efficaces pour gérer les erreurs, fournir des messages d'erreur clairs et guider les utilisateurs en cas de problème.
-- **Évolutivité des serveurs:** Si l'application utilise des serveurs, assurez-vous qu'ils sont dimensionnés pour gérer la charge prévue, avec des mécanismes d'évolutivité en place.
 - **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
-- **Gestion des APIs:** fournir des api claires et compréhensibles, bien documentées, permettant une intégration future avec un api management.
 
 # Workflows
 Description de l'ensemble des principaux workflow de l'application.
@@ -66,7 +64,5 @@ Description de l'ensemble des principaux workflow de l'application.
 ## Suggérer un film
 
 ## Supprimer son compte
-
-## Inviter une autre personne sur le site
 
 ## Signaler un film
