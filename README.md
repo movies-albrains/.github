@@ -27,8 +27,8 @@ Web application allowing you to borrow a book
 - l'utilisateur doit fournir l'adresse à laquelle on envoit le film version disque, ou le mail auquel envoyer la version en ligne
 - pour un film en ligne, le lien du film est disponible pendant une durée déterminée
 
-# Spécifications non fonctionnelles
-- Les films vont êtres initialisées en utilisant le script disponible sur la page [Movielens](https://grouplens.org/datasets/movielens/)
+# Non functional requirements
+- Initialize catalog database using [Movielens](https://grouplens.org/datasets/movielens/)
 - Les utilisateurs font régulièrement des recherches, ce qui demande du cpu
 - On a beaucoup de données de films, ratings, commentaires...
 - près de 1000 utilisateurs connectés simultanément
