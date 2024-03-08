@@ -7,7 +7,7 @@ Web application allowing you to borrow a book
 - Search in the movie catalog
 - Each user can suggest the addition of new movie
 - Each user can rate a film after borrowing, and add some comments
-- borrowing ans return a movie
+- borrowing and return a movie
 
 
 - pré-commande de film qui arrive bientôt sur la plateforme, ou qui va bientôt être retourné
