@@ -34,30 +34,22 @@ Web application allowing you to borrow a book
 - 10.000 active users
 - **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
 - **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
-- **Interactivité utilisateur:** Fournissez une interface utilisateur conviviale et intuitive, favorisant une expérience utilisateur positive et encourageant l'exploration du contenu.
-- **Efficacité du stockage:** Optimisez l'utilisation de l'espace de stockage pour minimiser l'empreinte de l'application tout en conservant une performance optimale.
 - **Gestion des erreurs:** Mettez en place des mécanismes efficaces pour gérer les erreurs, fournir des messages d'erreur clairs et guider les utilisateurs en cas de problème.
 - **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
 
 # Workflows
-Description de l'ensemble des principaux workflow de l'application.
 
 ## [User registration](./workflows/signup.md)
 ## [Authenticate user](./workflows/signin.md)
 ## [Add a movie](./workflows/add-movie.md)
-## Ajouter un film dans les favories
-## Ajouter un film dans le panier
-## [Emprunt de film](./workflows/borrow.md)
-## [Retour de film](./workflows/return.md)
+## Add a movie to whitelist
+## Add a movie to the cart
+## [Borrowing movie](./workflows/borrow.md)
+## [Return a movie](./workflows/return.md)
 ## Code promotionnel
-## [Supprimer un film](./workflows/remove-movie.md)
-
+## [Delete a movie](./workflows/remove-movie.md)
 ## Code promotionnel
-
 ## Campagne de communication
-
 ## Suggérer un film
-
 ## Supprimer son compte
-
 ## Signaler un film
