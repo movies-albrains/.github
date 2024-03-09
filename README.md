@@ -34,7 +34,6 @@ Web application allowing you to borrow a book
 - 10.000 active users
 - **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
 - **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
-- **Gestion des erreurs:** Mettez en place des mécanismes efficaces pour gérer les erreurs, fournir des messages d'erreur clairs et guider les utilisateurs en cas de problème.
 - **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
 
 # Workflows
