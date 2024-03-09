@@ -29,15 +29,10 @@ Web application allowing you to borrow a book
 
 # Non functional requirements
 - Initialize catalog database using [Movielens](https://grouplens.org/datasets/movielens/)
-- Les utilisateurs font régulièrement des recherches, ce qui demande du cpu
-- On a beaucoup de données de films, ratings, commentaires...
-- près de 1000 utilisateurs connectés simultanément
-- tolérence de perte de messages ??
-- configurer la retention des données (avec aws config ?)
-- **Performance:** l'application vidéothèque offre une navigation fluide et une réponse rapide, même avec un grand nombre de vidéos répertoriées
+- Expecting 300.000 movies
+- 1M comments and rating on movies
+- 10.000 active users
 - **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
-- **Compatibilité:** Garantissez la compatibilité de l'application avec divers dispositifs (smartphones, tablettes, ordinateurs) et systèmes d'exploitation (iOS, Android, Windows, etc.).
-- **Accessibilité:** Assurez-vous que l'application est accessible à tous les utilisateurs, y compris ceux ayant des besoins spécifiques tels que des limitations visuelles ou auditives.
 - **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
 - **Interactivité utilisateur:** Fournissez une interface utilisateur conviviale et intuitive, favorisant une expérience utilisateur positive et encourageant l'exploration du contenu.
 - **Efficacité du stockage:** Optimisez l'utilisation de l'espace de stockage pour minimiser l'empreinte de l'application tout en conservant une performance optimale.
