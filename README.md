@@ -30,6 +30,7 @@ Web application allowing you to borrow a book
 # Non functional requirements
 - Initialize catalog database using [Movielens](https://grouplens.org/datasets/movielens/)
 - Expecting 300.000 movies
+- Promotional trailier: 50Mb per movie => 15GB
 - 1M comments and rating on movies
 - 10.000 active users
 - **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
