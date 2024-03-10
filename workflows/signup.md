@@ -1,4 +1,4 @@
-# Inscription d'un utilisateur
+# User registration
 - Sur l'interface principale, l'utilisateur clique sur le bouton d'inscription
 - Il remplit un formulaire avec son nom, prénom, e-mail, mot de passe. L'email est unique pour un utilisateur
 - L'utilisateur a aussi la possibilité de se connecter avec Gmail et Facebook
