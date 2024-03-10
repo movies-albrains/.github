@@ -46,10 +46,9 @@ Web application allowing you to borrow a book
 ## Add a movie to the cart
 ## [Borrowing movie](./workflows/borrow.md)
 ## [Return a movie](./workflows/return.md)
-## Code promotionnel
 ## [Delete a movie](./workflows/remove-movie.md)
-## Code promotionnel
-## Campagne de communication
-## Suggérer un film
-## Supprimer son compte
-## Signaler un film
+## Discount code
+## Ad campaign
+## Suggest movie
+## Delete account
+## Report a movie
