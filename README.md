@@ -26,9 +26,6 @@ Web application allowing you to borrow a book
 - Promotional trailier: 50Mb per movie => 15GB
 - 1M comments and rating on movies
 - 10.000 active users
-- **Sécurité:** Implémentez des mesures de sécurité robustes pour protéger les données des utilisateurs, y compris les informations de compte et les préférences de visionnage.
-- **Extensibilité:** Concevez l'application pour permettre facilement l'ajout de nouvelles fonctionnalités et l'expansion de la vidéothèque sans compromettre la stabilité.
-- **Politiques de confidentialité:** Respectez les normes de confidentialité des données en mettant en œuvre des politiques de confidentialité claires et en permettant aux utilisateurs de contrôler leurs informations personnelles.
 
 # Workflows
 
