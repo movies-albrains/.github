@@ -13,7 +13,7 @@ Web application allowing you to borrow a book
 - Build analytics base on movie and users
 - The borrowing price depends on borrowing duration
 - Discount code base on movie or specific users
-- Penalties to users when a movie is not returned at time
+- Penalties for users who fail to return a movie at time
 - l'utilisateur recoit des notifications par mail lorsque l'emprunt est effectif; il est prévénu quand la date limite d'emprunt arrive
 - Only one copy of the movie may be borrowed by the same user
 - quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
