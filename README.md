@@ -10,8 +10,8 @@ Web application allowing you to borrow a book
 - borrowing and return a movie
 - pré-commande de film qui arrive bientôt sur la plateforme, ou qui va bientôt être retourné
 - Type of users: visitor, borrower,admin
-- Anaylyses de données: analyse du comportement des utilisateurs, la popularité des films
-- l'emprunt d'un livre est payant, et cela dépend de la durée de l'emprunt
+- Build analytics base on movie and users
+- The borrowing price depends on borrowing duration
 - possibilité de donner une remise ou code promo à un utilisateur, ou associé à un film
 - au dela de la période d'emprunt, l'emprunteur peut recevoir des pénalités si cela arrive souvent
 - l'utilisateur recoit des notifications par mail lorsque l'emprunt est effectif; il est prévénu quand la date limite d'emprunt arrive
