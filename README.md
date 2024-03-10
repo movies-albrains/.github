@@ -17,7 +17,7 @@ Web application allowing you to borrow a book
 - Notify user when borrowing deadline is being reached
 - Only one copy of the movie may be borrowed by the same user
 - quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
-- l'utilisateur a la possiblité de liker ou mettre des films dans une liste de souhaits
+- User can add a movie to whitelist, rate and comment a movie
 - rgpd
 
 ## pour plus tard
