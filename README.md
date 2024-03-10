@@ -48,6 +48,6 @@ Web application allowing you to borrow a book
 ## [Delete a movie](./workflows/remove-movie.md)
 ## Discount code
 ## Ad campaign
-## Suggest movie
+## Suggest a movie
 ## Delete account
 ## Report a movie
