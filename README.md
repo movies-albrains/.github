@@ -8,9 +8,8 @@ Web application allowing you to borrow a book
 - Each user can suggest the addition of new movie
 - Each user can rate a film after borrowing, and add some comments
 - borrowing and return a movie
-
 - pré-commande de film qui arrive bientôt sur la plateforme, ou qui va bientôt être retourné
-- Gestion des utilisateurs: l'emprunteur, l'admin
+- Type of users: l'emprunteur, l'admin
 - Anaylyses de données: analyse du comportement des utilisateurs, la popularité des films
 - l'emprunt d'un livre est payant, et cela dépend de la durée de l'emprunt
 - possibilité de donner une remise ou code promo à un utilisateur, ou associé à un film
