@@ -16,7 +16,6 @@ Web application allowing you to borrow a book
 - Penalties for users who fail to return a movie on time
 - Notify user when borrowing deadline is being reached
 - Only one copy of the movie may be borrowed by the same user
-- quand l'utilisateur met le film dans son papier, il est verrouiller pendant un certain temps
 - User can add a movie to whitelist, rate and comment a movie
 - rgpd
 
