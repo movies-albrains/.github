@@ -20,10 +20,6 @@ Web application allowing you to borrow a book
 - User can add a movie to whitelist, rate and comment a movie
 - rgpd
 
-## pour plus tard
-- l'utilisateur doit fournir l'adresse à laquelle on envoit le film version disque, ou le mail auquel envoyer la version en ligne
-- pour un film en ligne, le lien du film est disponible pendant une durée déterminée
-
 # Non functional requirements
 - Initialize catalog database using [Movielens](https://grouplens.org/datasets/movielens/)
 - Expecting 300.000 movies
