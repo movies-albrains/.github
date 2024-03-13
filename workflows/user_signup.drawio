@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T15:51:25.954Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="z8ZWBHQr6ZmH3FE1vD07" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T17:24:37.909Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="IMaIeVxImXYwFUDJhMvn" version="24.0.5" type="github">
   <diagram name="Page-1" id="HPnKJZSjGe8xQvWfXh0J">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,6 +32,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="wDKLhnp5DGYeRn4E1-KL-9" target="wDKLhnp5DGYeRn4E1-KL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wDKLhnp5DGYeRn4E1-KL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="wDKLhnp5DGYeRn4E1-KL-9" target="wDKLhnp5DGYeRn4E1-KL-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-9" value="profile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -100,6 +103,9 @@
         </mxCell>
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;User signup&lt;br&gt;&lt;/h1&gt;&lt;p&gt;for users&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wDKLhnp5DGYeRn4E1-KL-28" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="81" width="50" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
