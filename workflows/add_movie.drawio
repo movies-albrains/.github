@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T17:28:40.003Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="CvVH9ctoDhWWi93DYwH_" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T17:30:35.285Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="MwqSYks6oS4HiH4_LKFf" version="24.0.5" type="github">
   <diagram name="Page-1" id="J5l5RWatPEWsos0BZqSf">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,6 +40,11 @@
         </mxCell>
         <mxCell id="7TIC5C37rqPPPzWU6W-Q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7TIC5C37rqPPPzWU6W-Q-11" target="7TIC5C37rqPPPzWU6W-Q-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TIC5C37rqPPPzWU6W-Q-33" value="&lt;div&gt;3. Message&lt;/div&gt;&lt;div&gt;about&lt;/div&gt;&lt;div&gt;accounting&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7TIC5C37rqPPPzWU6W-Q-24">
+          <mxGeometry x="-0.0269" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7TIC5C37rqPPPzWU6W-Q-11" value="catalog and inventory processor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="391.2" y="180" width="120" height="60" as="geometry" />
