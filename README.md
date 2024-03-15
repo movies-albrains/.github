@@ -32,9 +32,9 @@ Web application allowing you to borrow a book
 ## [Authenticate user](./workflows/user_signin.png)
 ## [Add a movie](./workflows/add_movie.png)
 ## Add a movie to whitelist
-## Add a movie to the cart
-## [Borrowing movie](./workflows/borrow.md)
-## [Return a movie](./workflows/return.md)
+## [Add a movie to the cart](./workflows/add_to_shopping_cart.png)
+## [Borrowing movie](./workflows/order_processor_movie.png)
+## [Return a movie](./workflows/return_movie.png)
 ## [Delete a movie](./workflows/remove-movie.md)
 ## Discount code
 ## Ad campaign
