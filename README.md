@@ -40,4 +40,4 @@ Web application allowing you to borrow a book
 ## Ad campaign
 ## Suggest a movie
 ## Delete account
-## Review a movie
+## [Review a movie](./workflows/review_movie.png)
