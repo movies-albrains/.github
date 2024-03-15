@@ -29,8 +29,8 @@ Web application allowing you to borrow a book
 # Workflows
 
 ## [User registration](./workflows/user_signup.png)
-## [Authenticate user](./workflows/signin.md)
-## [Add a movie](./workflows/add-movie.md)
+## [Authenticate user](./workflows/user_signin.png)
+## [Add a movie](./workflows/add_movie.png)
 ## Add a movie to whitelist
 ## Add a movie to the cart
 ## [Borrowing movie](./workflows/borrow.md)
