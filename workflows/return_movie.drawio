@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T13:40:18.593Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="IcFjU3aRcuouXVLB22aV" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T14:27:07.204Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="-8oLnDjdqrhy2Tjpsz2D" version="24.0.5" type="github">
   <diagram name="Page-1" id="qreUjN5F2P88OZPngTWF">
     <mxGraphModel dx="1434" dy="-446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
         <mxCell id="ZhB0yShpX8SNdS-uQnLm-18" value="notification" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZhB0yShpX8SNdS-uQnLm-19" value="reporting" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZhB0yShpX8SNdS-uQnLm-19" value="catalog and inventory management" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="605" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
