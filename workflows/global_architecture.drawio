@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T13:59:31.443Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="2EAsl1K2hIlcqxzjA7E2" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T14:00:18.305Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="OINR1n6dtg2t7JiKWPxL" version="24.0.5" type="github">
   <diagram name="Page-1" id="FEUzagKps-RWrclbNPCi">
     <mxGraphModel dx="2261" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,14 +69,8 @@
         <mxCell id="fPG9CJyI1WqnSzjEBPLk-10" value="shopping cart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fPG9CJyI1WqnSzjEBPLk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPG9CJyI1WqnSzjEBPLk-11" target="fPG9CJyI1WqnSzjEBPLk-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="fPG9CJyI1WqnSzjEBPLk-11" value="identity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="80" y="580" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fPG9CJyI1WqnSzjEBPLk-12" value="keycloak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="580" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPG9CJyI1WqnSzjEBPLk-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="fPG9CJyI1WqnSzjEBPLk-13" target="fPG9CJyI1WqnSzjEBPLk-1">
           <mxGeometry relative="1" as="geometry" />
