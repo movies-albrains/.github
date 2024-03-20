@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T08:07:55.378Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="B3xfXiGcUWEotH0JAduM" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T13:07:48.941Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="pEcw_fxp_nq9bMBI6j5m" version="24.0.5" type="github">
   <diagram name="Page-1" id="HPnKJZSjGe8xQvWfXh0J">
-    <mxGraphModel dx="1434" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,13 +70,13 @@
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-17" value="keycloak" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="388" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wDKLhnp5DGYeRn4E1-KL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wDKLhnp5DGYeRn4E1-KL-19" target="wDKLhnp5DGYeRn4E1-KL-24" edge="1">
+        <mxCell id="wDKLhnp5DGYeRn4E1-KL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="wDKLhnp5DGYeRn4E1-KL-19" target="wDKLhnp5DGYeRn4E1-KL-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-19" value="kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="618" y="180" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wDKLhnp5DGYeRn4E1-KL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wDKLhnp5DGYeRn4E1-KL-9" target="wDKLhnp5DGYeRn4E1-KL-19" edge="1">
+        <mxCell id="wDKLhnp5DGYeRn4E1-KL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="wDKLhnp5DGYeRn4E1-KL-9" target="wDKLhnp5DGYeRn4E1-KL-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wDKLhnp5DGYeRn4E1-KL-21" value="6. user created" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wDKLhnp5DGYeRn4E1-KL-20" vertex="1" connectable="0">
