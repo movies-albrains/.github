@@ -26,6 +26,9 @@ Web application allowing you to borrow a book
 - 1M comments and rating on movies
 - 10.000 active users
 
+# Global architecture
+![Global architecture](./workflows/global_architecture.png)
+
 # Workflows
 
 ## [User registration](./workflows/user_signup.png)
