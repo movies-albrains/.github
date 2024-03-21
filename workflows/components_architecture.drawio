@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T08:28:07.131Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="YOMByprmm1sjvcPj_AYR" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T08:38:22.176Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="uaH7BHC1FjEme4DBr4Iy" version="24.0.7" type="github">
   <diagram name="Page-1" id="W-foaCdrFvxLO5kR-0uf">
     <mxGraphModel dx="2261" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
         <mxCell id="QyNCzcWUwKFA1obP33Jd-12" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" parent="1" vertex="1">
           <mxGeometry x="-230" y="100" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="g2Kr9amtkvdNoiQ2l_7--2" value="SQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="g2Kr9amtkvdNoiQ2l_7--2" value="NewSQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="530" y="840" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g2Kr9amtkvdNoiQ2l_7--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KcVx93U3S1TJVd0ysHXM-17" target="g2Kr9amtkvdNoiQ2l_7--2">
@@ -208,6 +208,12 @@
           <mxGeometry x="185" y="570" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g2Kr9amtkvdNoiQ2l_7--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=5;exitDy=125;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="KcVx93U3S1TJVd0ysHXM-19" target="g2Kr9amtkvdNoiQ2l_7--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Kr9amtkvdNoiQ2l_7--22" value="NewSQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Kr9amtkvdNoiQ2l_7--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KcVx93U3S1TJVd0ysHXM-8" target="g2Kr9amtkvdNoiQ2l_7--22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
