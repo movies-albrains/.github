@@ -29,7 +29,7 @@ Web application allowing you to borrow a book
 # Global architecture (high level)
 ![Global architecture](./workflows/global_architecture.png)
 
-# Component architecture (implementation)
+# Component architecture (low level)
 ![Component architecture](./workflows/components_architecture.png)
 
 # Workflows
