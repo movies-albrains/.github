@@ -1,5 +1,5 @@
 # .github
-Web application allowing you to borrow a book
+Web application allowing you to borrow a movie.
 
 # Functional requirements
 - Display all movies paginated
