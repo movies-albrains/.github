@@ -3,6 +3,7 @@
 ## Table of contents
 1. [Summary](#summary)
 2. [Requirements](#requirements)
+3. [Domain design](#domain-design)
 
 ## Summary
 - This document describes the MovieBrains application's architecture
@@ -40,3 +41,10 @@
 - Promotional trailier: 50Mb per movie => 15GB
 - 1M comments and rating on movies
 - 10.000 active users
+
+## Domain design
+### Domains and sub domains
+- **Business domain:** Borrowing movies
+- **Core subdomains:** movie's catalog, inventory, order, contrat d'exclusivité, analyse de données sur les films du moment, recommendation engine, web application
+- **Generic subdomains:** shipping, payment, authentication/authorisation
+- **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, accounting, shopping cart, review (notes, commentaires, réactions)
