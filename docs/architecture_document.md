@@ -1,3 +1,7 @@
+
+
+
+
 # Functional requirements
 - Display all movies paginated
 - Display catalog base on recommendations (favourites genders, rates ...)

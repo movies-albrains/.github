@@ -1,9 +1,11 @@
 # .github
 Web application allowing user to borrow a movie.
 
+![Logo](./docs/MovieBrains_logo_copyrighted.png)
+
 # Summary
 1. [Architecture document](./docs/architecture_document.md)
-2. [Application startup process](./docs/startup.md)
+2. [Getting started](./docs/startup.md)
 3. [Contributing guidelines](./CONTRIBUTING.md)
 
 
