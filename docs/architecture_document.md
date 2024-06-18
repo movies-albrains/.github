@@ -21,10 +21,9 @@
 - Display all movies using pagination
 - Display catalog base on recommendations (favourites genders, rates ...)
 - Search in the movie catalog
-- Each user can suggest the addition of new movie
-- Each user can rate a film after borrowing, and add some comments
+- Each user can suggest the addition of new movies
+- Each user can rate a movie after returning, and add some comments
 - borrowing and return a movie
-- Type of users: visitor, borrower,admin
 - Admin user can add a new movie
 - Build analytics base on movie and users
 - The borrowing price depends on borrowing duration
@@ -32,7 +31,6 @@
 - Penalties for users who fail to return a movie on time
 - Notify user when borrowing deadline is being reached
 - Only one copy of the movie may be borrowed by the same user
-- User can add a movie to whitelist, rate and comment a movie
 - rgpd
 
 ### Non functional requirements
@@ -48,3 +46,7 @@
 - **Core subdomains:** movie's catalog, inventory, order, contrat d'exclusivité, analyse de données sur les films du moment, recommendation engine, web application
 - **Generic subdomains:** shipping, payment, authentication/authorisation
 - **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, accounting, shopping cart, review (notes, commentaires, réactions)
+
+### Context Map
+![Context Map](../src-gen/movies-albrains_ContextMap.png)
+![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
