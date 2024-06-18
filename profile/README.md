@@ -10,6 +10,7 @@ Web application allowing user to borrow a movie.
 - Frontend: React
 - Database: PostgreSQL
 - Auth: Keycloak, OAuth2
+- DevSecOps: Github actions, Kubernetes
 
 # Modeling practices
 - Architecture document
