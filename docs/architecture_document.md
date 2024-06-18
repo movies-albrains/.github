@@ -1,9 +1,23 @@
+# Architecture document
 
+## Table of contents
+1. [Summary](#summary)
+2. [Requirements](#requirements)
 
+## Summary
+- This document describes the MovieBrains application's architecture
+- MovieBrains application help people to borrow blogbuster movie
+- The application give informations about the movie's rate, comments, the most watched movie and so on
+- A visitor can watch the movie catalog
+- if a visitor is interested by a movie, he has to sign up before ordering the movie
 
-
-# Functional requirements
-- Display all movies paginated
+## Requirements
+### Users
+- Platform administrator
+- connected user
+- visitor
+### Functional requirements
+- Display all movies using pagination
 - Display catalog base on recommendations (favourites genders, rates ...)
 - Search in the movie catalog
 - Each user can suggest the addition of new movie
@@ -20,7 +34,7 @@
 - User can add a movie to whitelist, rate and comment a movie
 - rgpd
 
-# Non functional requirements
+### Non functional requirements
 - Initialize catalog database using [Movielens](https://grouplens.org/datasets/movielens/)
 - Expecting 300.000 movies
 - Promotional trailier: 50Mb per movie => 15GB
