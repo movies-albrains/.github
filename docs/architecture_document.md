@@ -9,7 +9,7 @@
 - This document describes the MovieBrains application's architecture
 - MovieBrains application help people to borrow blogbuster movie
 - The application give informations about the movie's rate, comments, the most watched movie and so on
-- A visitor can watch the movie catalog
+- A user can browse the movie catalog, view movie details and trailer, borrow a movie for a specific period
 - if a visitor is interested by a movie, he has to sign up before ordering the movie
 
 ## Requirements
