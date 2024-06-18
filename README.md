@@ -1,5 +1,5 @@
 # .github
-Web application allowing you to borrow a movie.
+Web application allowing user to borrow a movie.
 
 # Summary
 1- [Architecture document](./docs/architecture_document.md)
