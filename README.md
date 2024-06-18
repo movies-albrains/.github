@@ -2,9 +2,9 @@
 Web application allowing user to borrow a movie.
 
 # Summary
-1- [Architecture document](./docs/architecture_document.md)
-2- [Application startup process](./docs/startup.md)
-3- [Contributing guidelines](./CONTRIBUTING.md)
+1. [Architecture document](./docs/architecture_document.md)
+2. [Application startup process](./docs/startup.md)
+3. [Contributing guidelines](./CONTRIBUTING.md)
 
 
 # Global architecture (high level)
