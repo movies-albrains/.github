@@ -14,4 +14,4 @@ Web application allowing user to borrow a movie.
 ## Follow me on 
 - [LinkedIn](https://www.linkedin.com/in/alex-sieyadjeu)
 - [Medium](https://stackalbrains.com/)
-- [GitHub](https://https://github.com/alexlionnel)
+- [GitHub](https://github.com/alexlionnel)
