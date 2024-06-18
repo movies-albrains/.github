@@ -11,7 +11,7 @@ Web application allowing user to borrow a movie.
 - Database: PostgreSQL
 - Auth: Keycloak, OAuth2
 
-Follow me on 
+## Follow me on 
 - [LinkedIn](https://www.linkedin.com/in/alex-sieyadjeu)
 - [Medium](https://www.stackalbrains.com)
 - [GitHub](https://https://github.com/alexlionnel)
