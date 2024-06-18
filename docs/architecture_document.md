@@ -13,10 +13,6 @@
 - if a visitor is interested by a movie, he has to sign up before ordering the movie
 
 ## Requirements
-### Users
-- Platform administrator
-- connected user
-- visitor
 ### Functional requirements
 - Display all movies using pagination
 - Display catalog base on recommendations (favourites genders, rates ...)
@@ -39,6 +35,11 @@
 - Promotional trailier: 50Mb per movie => 15GB
 - 1M comments and rating on movies
 - 10.000 active users
+
+### Users
+- Platform administrator
+- connected user
+- visitor
 
 ## Domain design
 ### Domains and sub domains
