@@ -6,7 +6,7 @@ Web application allowing user to borrow a movie.
 - Borrowing a movie
 
 # Tech stack
-- Backend: Java, Kotlin
+- Backend: Java, Kotlin, NestJs
 - Frontend: React
 - Database: PostgreSQL
 - Auth: Keycloak, OAuth2
