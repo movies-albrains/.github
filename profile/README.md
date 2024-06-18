@@ -11,6 +11,12 @@ Web application allowing user to borrow a movie.
 - Database: PostgreSQL
 - Auth: Keycloak, OAuth2
 
+# Modeling practices
+- Architecture document
+- Domain driven design
+- Modeling tools: UML, Archimate
+- Document as code: Context Mapper
+
 ## Follow me on 
 - [LinkedIn](https://www.linkedin.com/in/alex-sieyadjeu)
 - [Medium](https://stackalbrains.com/)
