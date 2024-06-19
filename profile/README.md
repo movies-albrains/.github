@@ -15,8 +15,8 @@ Web application allowing user to borrow a movie.
 # Modeling practices
 - Architecture document
 - Domain driven design
-- Modeling tools: UML, Archimate
-- Document as code: Context Mapper
+- Modeling language: UML, Archimate
+- Modeling tools: Context Mapper, Mermaid, Mingrammer, Modelio
 
 ## Follow me on 
 - [LinkedIn](https://www.linkedin.com/in/alex-sieyadjeu)
