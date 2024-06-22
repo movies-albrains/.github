@@ -1,0 +1,19 @@
+@startuml
+
+component "Web Application"
+
+node "Catalog" {
+    [catalog management]
+    [inventory management]
+}
+
+component "Profile"
+
+component "Identity"
+
+"Web Application" --> Catalog
+"Web Application" --> Profile
+"Web Application" --> Identity
+Profile --> Identity
+
+@enduml

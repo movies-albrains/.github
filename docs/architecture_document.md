@@ -71,3 +71,6 @@
 ## Component diagram
 ![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
 
+## Architecture
+### Microservice Diagram
+![Microservice architecture](../out/microservice/microservice.png)
