@@ -48,10 +48,6 @@
 - **Generic subdomains:** shipping, payment
 - **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, shopping cart, review (rate, comments, reactions)
 
-### Context Map
-![Context Map](../src-gen/movies-albrains_ContextMap.png)
-![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
-
 ### Context description
 - **Catalog**: Add, modfy or remove a movie from the catalog
 - **Inventory**: Inventory management of movies, increase and decrease the number of copies of a movie
@@ -68,3 +64,10 @@
 - **Review**
 - **Notification**
 - **Security**: authentication and authorization
+
+### Context Map
+![Context Map](../src-gen/movies-albrains_ContextMap.png)
+
+## Component diagram
+![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
+
