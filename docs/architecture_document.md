@@ -44,10 +44,27 @@
 ## Domain design
 ### Domains and sub domains
 - **Business domain:** Borrowing movies
-- **Core subdomains:** movie's catalog, inventory, order, exclusivity contract, movie analytics, recommendation engine, web application
-- **Generic subdomains:** shipping, payment, authentication/authorisation
-- **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, accounting, shopping cart, review (notes, commentaires, réactions)
+- **Core subdomains:** movie's catalog, inventory, order, exclusivity contract, movie analytics, recommendation engine, web application, accounting
+- **Generic subdomains:** shipping, payment
+- **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, shopping cart, review (rate, comments, reactions)
 
 ### Context Map
 ![Context Map](../src-gen/movies-albrains_ContextMap.png)
 ![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
+
+### Context description
+- **Catalog**: Add, modfy or remove a movie from the catalog
+- **Inventory**: Inventory management of movies, increase and decrease the number of copies of a movie
+- **Accounting**: Context of managing the price of each movie
+- **Recommandation engine**: engine used to recommand movie to a user, based on multiples parameters
+- **Web Application**: Web application used by clients to browse the catalog and borrow the movie
+- **Shipping**: Contect of shipping movie to a client, after making an oder
+- **Payment**: handling payment when ordering
+- **Borrowing**: context of borrowing a movie
+- **Returning**: contect of returning a movie
+- **Profile**: User management context, handling differents types of user
+- **Whitelist**
+- **Shopping cart**
+- **Review**
+- **Notification**
+- **Security**: authentication and authorization
