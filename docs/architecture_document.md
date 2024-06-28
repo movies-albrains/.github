@@ -74,3 +74,24 @@
 ## Architecture
 ### Microservice Diagram
 ![Microservice architecture](../out/microservice/microservice.png)
+
+### Workflow
+#### User registration
+![User registration](../workflows/user_signup.png)
+#### Authenticate user
+![Authenticate user](../workflows/user_signin.png)
+#### Add a movie
+![Add a movie](../workflows/add_movie.png)
+#### Add a movie to the cart
+![Add a movie to the cart](../workflows/add_to_shopping_cart.png)
+#### Borrowing movie
+![Borrowing movie](../workflows/order_processor_movie.png)
+#### Return a movie
+![Return a movie](../workflows/return_movie.png)
+#### Delete a movie
+#### Discount code
+#### Ad campaign
+#### Suggest a movie
+#### Delete account
+#### Review a movie
+![Review a movie](../workflows/review_movie.png)
