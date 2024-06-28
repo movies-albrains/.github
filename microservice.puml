@@ -31,6 +31,7 @@ component "Identity" #LightSteelBlue
 "Web Application" --> "Shopping cart"
 "Web Application" --> "Order management"
 Catalog --> "Search/Recommandation engine"
+"Search/Recommandation engine" --> Profile
 "Order management" --> Catalog
 "Order management" --> "Delivery management"
 Profile --> Identity
