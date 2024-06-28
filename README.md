@@ -10,7 +10,7 @@ Web application allowing user to borrow a movie.
 
 
 # Global architecture (high level)
-![Global architecture](./workflows/global_architecture.png)
+![Global architecture](./out/microservice/microservice.png)
 
 # Component architecture (low level)
 ![Component architecture](./workflows/components_architecture.png)

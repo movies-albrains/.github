@@ -1,28 +1,28 @@
 @startuml
 
-component "Web Application" #LightBlue
+component "Web Application" #LightSteelBlue
 
-component "Search/Recommandation engine" #LightBlue
+component "Search/Recommandation engine" #LightSteelBlue
 
-node "Order management" #LightBlue {
+node "Order management" #LightSteelBlue {
     [Borrowing]
     [Returning]
     [SAV]
 }
 
-component "Shopping cart" #LightBlue
+component "Shopping cart" #LightSteelBlue
 
-component "Delivery management" #LightBlue
+component "Delivery management" #LightSteelBlue
 
-node "Catalog" #LightBlue {
+node "Catalog" #LightSteelBlue {
     [catalog management]
     [inventory management]
     [Accounting]
 }
 
-component "Profile" #LightBlue
+component "Profile" #LightSteelBlue
 
-component "Identity" #LightBlue
+component "Identity" #LightSteelBlue
 
 "Web Application" --> Catalog
 "Web Application" --> Profile
