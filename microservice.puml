@@ -1,19 +1,38 @@
 @startuml
 
-component "Web Application"
+component "Web Application" #LightBlue
 
-node "Catalog" {
-    [catalog management]
-    [inventory management]
+component "Search/Recommandation engine" #LightBlue
+
+node "Order management" #LightBlue {
+    [Borrowing]
+    [Returning]
+    [SAV]
 }
 
-component "Profile"
+component "Shopping cart" #LightBlue
 
-component "Identity"
+component "Delivery management" #LightBlue
+
+node "Catalog" #LightBlue {
+    [catalog management]
+    [inventory management]
+    [Accounting]
+}
+
+component "Profile" #LightBlue
+
+component "Identity" #LightBlue
 
 "Web Application" --> Catalog
 "Web Application" --> Profile
 "Web Application" --> Identity
+"Web Application" --> "Search/Recommandation engine"
+"Web Application" --> "Shopping cart"
+"Web Application" --> "Order management"
+Catalog --> "Search/Recommandation engine"
+"Order management" --> Catalog
+"Order management" --> "Delivery management"
 Profile --> Identity
 
 @enduml
