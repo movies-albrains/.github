@@ -96,7 +96,7 @@
 ### Microservice Diagram
 ![Microservice architecture](../out/microservice/microservice.png)
 
-### Technologie Stack
+### Technology Stack
 - Generic
     - **Message Broker**: Kafka
     - **File storage**: AWS S3
