@@ -100,6 +100,7 @@
 - Generic
     - **Message Broker**: Kafka
     - **File storage**: AWS S3
+    - **AWS Emulator**: Localstack
 - Services
     - **Identity**: Kotlin, Spring Boot
     - **Profile**: Java, Spring Boot, PostgreSQL, Redis
