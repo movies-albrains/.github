@@ -68,7 +68,7 @@
 ### Context Map
 ![Context Map](../src-gen/movies-albrains_ContextMap.png)
 
-### Workflow
+### Workflows
 #### User registration
 ![User registration](../workflows/register_new_user.png)
 #### Authenticate user
