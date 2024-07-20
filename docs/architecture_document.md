@@ -68,13 +68,6 @@
 ### Context Map
 ![Context Map](../src-gen/movies-albrains_ContextMap.png)
 
-## Component diagram
-![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
-
-## Architecture
-### Microservice Diagram
-![Microservice architecture](../out/microservice/microservice.png)
-
 ### Workflow
 #### User registration
 ![User registration](../workflows/register_new_user.png)
@@ -95,3 +88,19 @@
 #### Delete account
 #### Review a movie
 ![Review a movie](../workflows/review_movie.png)
+
+## Component diagram
+![Precise Context Map ](../out/src-gen/movies-albrains_ContextMap/movies-albrains_ContextMap.png)
+
+## Architecture
+### Microservice Diagram
+![Microservice architecture](../out/microservice/microservice.png)
+
+### Technologie Stack
+- Generic
+    - **Broker**: Kafka
+- Services
+    - **Identity**: Kotlin, Spring Boot
+    - **Profile**: Java, Spring Boot, PostgreSQL, Redis
+    - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB
+    - **Search and recommendatino engine**:  Elasticsearch, Kinesis Data Stream, Sage Maker
