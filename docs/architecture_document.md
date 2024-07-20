@@ -77,7 +77,7 @@
 
 ### Workflow
 #### User registration
-![User registration](../workflows/user_signup.png)
+![User registration](../workflows/register_new_user.png)
 #### Authenticate user
 ![Authenticate user](../workflows/user_signin.png)
 #### Add a movie
