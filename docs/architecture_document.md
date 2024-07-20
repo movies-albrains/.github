@@ -72,7 +72,7 @@
 #### User registration
 ![User registration](../workflows/register_new_user.png)
 #### Authenticate user
-![Authenticate user](../workflows/user_signin.png)
+![Authenticate user](../workflows/user_sign_in.png)
 #### Add a movie
 ![Add a movie](../workflows/add_movie.png)
 #### Add a movie to the cart
