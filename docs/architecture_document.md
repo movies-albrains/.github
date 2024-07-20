@@ -98,9 +98,10 @@
 
 ### Technologie Stack
 - Generic
-    - **Broker**: Kafka
+    - **Message Broker**: Kafka
+    - **File storage**: AWS S3
 - Services
     - **Identity**: Kotlin, Spring Boot
     - **Profile**: Java, Spring Boot, PostgreSQL, Redis
-    - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB
+    - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB, 
     - **Search and recommendatino engine**:  Elasticsearch, Kinesis Data Stream, Sage Maker
