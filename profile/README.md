@@ -1,5 +1,5 @@
 # Resume
-Web application allowing user to borrow a movie.
+Web application allowing user to borrow a movie. See [Documentation](../docs/architecture_document.md)
 
 # Main requirements
 - Authenticate a user 
