@@ -68,25 +68,25 @@
 ### Context Map
 ![Context Map](../src-gen/movies-albrains_ContextMap.png)
 
-### Workflows
-#### User registration
+## Workflows
+### User registration
 ![User registration](../workflows/register_new_user.png)
-#### Authenticate user
+### Authenticate user
 ![Authenticate user](../workflows/user_sign_in.png)
-#### Add a movie
+### Add a movie
 ![Add a movie](../workflows/add_movie.png)
-#### Add a movie to the cart
+### Add a movie to the cart
 ![Add a movie to the cart](../workflows/add_to_shopping_cart.png)
-#### Borrowing movie
+### Borrowing movie
 ![Borrowing movie](../workflows/order_processor_movie.png)
-#### Return a movie
+### Return a movie
 ![Return a movie](../workflows/return_movie.png)
-#### Delete a movie
-#### Discount code
-#### Ad campaign
-#### Suggest a movie
-#### Delete account
-#### Review a movie
+### Delete a movie
+### Discount code
+### Ad campaign
+### Suggest a movie
+### Delete account
+### Review a movie
 ![Review a movie](../workflows/review_movie.png)
 
 ## Component diagram
