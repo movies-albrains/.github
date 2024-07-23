@@ -105,4 +105,4 @@
     - **Identity**: Kotlin, Spring Boot
     - **Profile**: Java, Spring Boot, PostgreSQL, Redis
     - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB, 
-    - **Search and recommendation engine**:  Elasticsearch, Kinesis Data Stream, Sage Maker
+    - **Search and recommendation engine**:  Elasticsearch, Kinesis Data Stream, AWS Personalize
