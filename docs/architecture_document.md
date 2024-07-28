@@ -48,7 +48,7 @@
 - **Support subdomains:** ad campaigns, discount, social networks integration, movie streaming services integration, wishlist, profile, shopping cart, review (rate, comments, reactions), recommendation engine, reporting
 - **Generic subdomains:** shipping, payment, security/confidentialité, notification
 
-### Context description
+### Subdomain description
 - **Catalog**: Add, modfy or remove a movie from the catalog
 - **Inventory**: Inventory management of movies, increase and decrease the number of copies of a movie
 - **Accounting**: Context of managing the price of each movie
