@@ -44,9 +44,9 @@
 ## Domain design
 ### Domains and sub domains
 - **Business domain:** Borrowing movies
-- **Core subdomains:** movie's catalog, inventory, order, exclusivity contract, movie analytics, recommendation engine, web application, accounting
-- **Generic subdomains:** shipping, payment
-- **Support subdomains:** ad campaigns, discount, notification, security/confidentialité, social networks integration, movie streaming services integration, reporting, wishlist, profile, shopping cart, review (rate, comments, reactions)
+- **Core subdomains:** movie's catalog, inventory, order, exclusivity contract, movie analytics, web application, accounting
+- **Support subdomains:** ad campaigns, discount, social networks integration, movie streaming services integration, wishlist, profile, shopping cart, review (rate, comments, reactions), recommendation engine, reporting
+- **Generic subdomains:** shipping, payment, security/confidentialité, notification
 
 ### Context description
 - **Catalog**: Add, modfy or remove a movie from the catalog
@@ -104,5 +104,5 @@
 - Services
     - **Identity**: Kotlin, Spring Boot
     - **Profile**: Java, Spring Boot, PostgreSQL, Redis
-    - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB, 
+    - **Catalog and Inventory**: NestJS, Typescript, MongoDB vs DynamoDB
     - **Search and recommendation engine**:  Elasticsearch, Kinesis Data Stream, AWS Personalize
